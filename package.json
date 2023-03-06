@@ -1,0 +1,21 @@
+{
+  "name": "cards",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./public/app.js",
+  "scripts": {
+    "test": "jest --watchAll --coverage",
+    "dev": "nodemon ./public/app.js"
+  },
+  "jest": {
+    "roots": [
+      "./public",
+      "./public/__tests__"
+    ]
+  },
+  "author": "Bhautik Kevadiya",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
